@@ -1,0 +1,11 @@
+### List all sectors
+GET http://localhost:3000/sectors
+
+### Create sector
+POST http://localhost:3000/sectors
+Content-Type: application/json
+
+{
+  "name": "Financials",
+  "symbol": "FINA"
+}
